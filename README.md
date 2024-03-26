@@ -4,7 +4,7 @@ Tail report file for extract initial and generate statistics per table in number
 
 This utility allows you to display the GoldenGate 21c microservices reports in real time for the extract initial load and then from this report file to generate a flat file and an xlsx file which presents the summary of the statistics with the following information:
 
-  - Table name
+  - Tablename
   - Date and time of start and end of processing per table
   - Number of rows retrieved per table
   - Extract duration per table in seconds
