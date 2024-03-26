@@ -4,13 +4,13 @@ Tail report file for extract initial and generate statistics per table in number
 
 This utility allows you to display the GoldenGate 21c microservices reports in real time for the extract initial load and then from this report file to generate a flat file and an xlsx file which presents the summary of the statistics with the following information:
 
-  Table name
-  Date and time of start and end of processing per table
-  Number of rows retrieved per table
-  Extract duration per table in seconds
-  Number of rows retrieved per second per table
-  % in number of rows per table compared to the total number of rows extracted
-  % of duration per table compared to total duration
+  - Table name
+  - Date and time of start and end of processing per table
+  - Number of rows retrieved per table
+  - Extract duration per table in seconds
+  - Number of rows retrieved per second per table
+  - % in number of rows per table compared to the total number of rows extracted
+  - % of duration per table compared to total duration
 
 This utility only works with a Linux environment (Windows not supported)
 
@@ -29,11 +29,11 @@ Prerequisites:
 
 Launching the utility:
 
-  java -jar /app/tools/initialLoadAnalysis.jar path of report file extract name
+    java -jar /app/tools/initialLoadAnalysis.jar path of report file extract name
 
 Example :
 
-  java -jar /app/tools/initialLoadAnalysis.jar /app/goldengate/oracle/deploy/var/lib/report EXT1
+    java -jar /app/tools/initialLoadAnalysis.jar /app/goldengate/oracle/deploy/var/lib/report EXT1
 
 
 
