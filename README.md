@@ -24,7 +24,7 @@ This allows to :
 
 Prerequisites:
 
-  JDK 1.8 minimum
+    JDK 1.8 minimum
 
 
 Launching the utility:
