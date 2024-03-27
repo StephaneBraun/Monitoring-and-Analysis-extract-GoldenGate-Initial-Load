@@ -43,6 +43,9 @@ The result files will be generated in the same directory as the GoldenGate repor
   - XLSX
 
 
+![image](https://github.com/StephaneBraun/Monitoring-and-Analysis-extract-GoldenGate-Initial-Load/assets/119328984/e5fa8605-2544-4f3e-a28f-2587bf8c9c66)
+
+
 The utility searches for the Linux process executing the extract initial load corresponding to the name of the process passed as a parameter with a ps command.
   If the process is running, we display the report file via the equivalent of a tail -f.
   If the process is already finished or when it ends, the output files are generated.
